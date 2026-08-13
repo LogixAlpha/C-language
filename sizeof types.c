@@ -4,12 +4,12 @@ int main() {
   float fnum;
   double dnum;
   char letter;
-  char name[];
+  //char name[];
   printf("%zu" , sizeof(num));
   printf("%zu" , sizeof(fnum));
   printf("%zu" , sizeof(dnum));
   printf("%zu" , sizeof(letter));
-  printf("%zu" , sizeof(name));
+  //printf("%zu" , sizeof(name));
   return 0;
 
 
