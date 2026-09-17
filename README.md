@@ -1,5 +1,5 @@
-# Hello-World
+# C language
 
 <br>
 
-**First C file.**
+**Archive of C files.**
