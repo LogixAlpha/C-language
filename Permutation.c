@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 void permutation(int *pa,int *pb){
-    // printf("a= %d \nb= %d \n",*pa,*pb);
-    //int _ = *pa;
-    //*pa = *pb ;
-    //*pb = _ ;
+    // Junk code :)
+    /* printf("a= %d \nb= %d \n",*pa,*pb);
+    int _ = *pa;
+    pa = *pb ;
+    pb = _ ;*/
     
     printf("Avant permutation: \na=%d \tb=%d\nApres permutation:\na=%d \tb=%d",*pa,*pb,*pb,*pa);
 }
