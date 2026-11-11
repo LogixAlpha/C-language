@@ -12,6 +12,8 @@ void permutation(int *pa,int *pb){
 int main(void)
 {
     int a,b;
+    int *pa = &a;
+    int *pb = &b;
     printf("La valeur de a et b : ");
     scanf("%d %d",&a,&b);
     permutation(&a,&b);
