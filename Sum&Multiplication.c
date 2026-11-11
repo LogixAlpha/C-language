@@ -6,7 +6,9 @@ void somme(float *pa,float *pb){
     printf("La somme est : %.2f \nLe produit est: %.2f",s,p);}
 int main(void)
 {
-    float a,b,c;
+    float a,b;
+    int *pa = &a;
+    int *pb = &b;
     printf("La valeur de a et b : ");
     scanf("%f %f",&a,&b);
     somme(&a,&b);
